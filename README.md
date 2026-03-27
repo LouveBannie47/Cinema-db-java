@@ -18,6 +18,7 @@ Projet Java permettant de se connecter à une base de données MySQL et d’affi
 ## Installation du driver JDBC
 
 Télécharger le driver MySQL Connector : https://dev.mysql.com/downloads/connector/j/
+
 Puis dans Eclipse :
 - Clic droit sur le projet
 - Build Path
