@@ -1,6 +1,6 @@
 # Cinema-db-java
 
-Projet Java permettant de se connecter à une base de données MySQL et d’afficher les informations des acteurs (nom, prénom, nationalité) à l’aide de JDBC.
+Projet Java permettant de se connecter à une base de données MySQL et d’afficher les informations des acteurs et des films à l’aide de JDBC.
 
 # Contenu du projet
 
@@ -34,20 +34,21 @@ Puis dans Eclipse :
 # Exécution du projet
 
 - Ouvrir le projet dans Eclipse
-- Vérifier les informations de connexion dans le code :
-  String url = "jdbc:mysql://localhost/cinemadb";
-  String login = "root";
-  String passwd = "root";
+- Vérifier les informations de connexion dans le code : String url = "jdbc:mysql://localhost/cinemadb"; String login = "root"; String passwd = "root";
 - Lancer le programme : Run As → Java Application
 
 # Exemple de sortie
 
 ==================== LISTE DES ACTEURS ====================
 com.mysql.cj.jdbc.result.ResultSetImpl@5136d012
+
 (1, 'DiCaprio', 'Leonardo', 'Américaine')
+
 (2, 'Johansson', 'Scarlett', 'Américaine')
 
 ==================== LISTE DES FILMS ====================
 com.mysql.cj.jdbc.result.ResultSetImpl@7690781
+
 (1, 'Inception', '2010', 'Science-fiction')148', 'Christopher Nolan')
+
 (2, 'Lucy', '2014', 'Action')89', 'Luc Besson')
